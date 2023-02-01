@@ -1,0 +1,52 @@
+/* 선택자(=Selector) 
+    1) 태그 선택자 : h1, p, body,...
+    2) 클래스 선택자 : .이름
+    3) 아이디 선택자 : #이름
+    ...굉장히 많음..
+*/
+html {
+    scroll-behavior: smooth; /* 스크롤 : 부드럽게 이동 */
+}
+body {
+    margin: 0; /* (바깥)여백 : 0 (=없음) */
+    text-align: center; /* 텍스트-정렬: (가로) 가운데 */
+}
+h1,h2,h3,h4,h6,p{margin:5rem :0;}
+
+#moto { 
+
+    width: 900px;
+    height: 30px;
+    color:rgb(247, 238, 238); 
+   background-color: aquamarine;
+     font-size: 20px;
+    background-image:url("Group 3.jpg");
+        padding: 2rem 0;
+        margin:  auto;
+}
+/*
+#moto::first-letter{
+    background-color: rgb(208, 255, 0);
+    font-size: 2.50rem;
+    padding: 2.5rem;
+    margin: 2.5rem;
+}
+
+*/
+.top-icon { /* 클래스 선택자 */
+    width: 50px; /* 가로넓이 : 50픽셀로, 세로높이는 이미지 비율대로 알아서 조절 */
+}
+
+.cover { background-image: url("https://picsum.photos/id/17/1920/200") ;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    
+    line-height: 200px    ;
+    color: aliceblue;
+}
+.profile {
+ width: 200px;
+ margin: 3rem 0 ; 
+
+}
